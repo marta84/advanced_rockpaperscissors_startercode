@@ -1,6 +1,15 @@
 //Class 1:
         // Fork and clone the repo and set up your project workspace and link files
         // Write HTML for your project
+        $("#1").click(function(){
+                $(".result").append("<p>Rock</p>");
+        });
+        $("#2").click(function(){
+           $(".result").append("<p>Paper</p>");
+        });
+        $("#4").click(function(){
+           $(".result").append("<p>Scissors</p>");     
+        });
 //Class 2:  
         // Declare four global variables for intial state of the list of choices, the computer choice, the user choice, and the winner.  
         // Practice using console.log() and debugger to debug your code
