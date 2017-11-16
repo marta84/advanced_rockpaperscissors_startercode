@@ -16,6 +16,9 @@
         // Create your document ready function. 
         // Create a click hander for when the "Shoot!" button is clicked, takes in the user choice from the input field, 
         // Display the user choice to the output screen
+                var choseWisely=["rock", "paper", "scissors"];
+                var answer=Math.floor(Math.random()*choseWisely.length);
+                console.log(choseWisely[answer]);
 //Class 3:  
         // Randomly choose among 'rock', 'paper', or 'scissors' from the list of choices 
         // Display the computer choice to the output screen
@@ -36,4 +39,6 @@
 
 
 // DOCUMENT READY FUNCTION
-
+$(document).ready(function(){
+   // code must be inside this function!
+});
